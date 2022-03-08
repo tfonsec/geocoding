@@ -15,7 +15,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class AddressResponse {
 	
-   private Address address;
-   private List<LatLng> coords;
-   private String result;
+   private Address address_components;
+   private List<LatLng> location;
+   private String euclidian_distance;
 }

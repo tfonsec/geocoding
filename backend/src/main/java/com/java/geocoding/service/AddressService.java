@@ -25,12 +25,12 @@ public class AddressService {
 		List<LatLng> list = new ArrayList<>();
 		try {
 			
-		for(int i = 0; i < request.getAddress().size(); i++) {
+		for(int i = 0; i < request.getFormatted_address().size(); i++) {
 				GeoApiContext context = new GeoApiContext.Builder()
 						.apiKey(key)
 						.build();
 				GeocodingResult[] results = GeocodingApi.geocode(context,
-						request.getAddress().get(i)).await();
+						request.getFormatted_address().get(i)).await();
 				
 				list.add(results[0].geometry.location);
 			}
