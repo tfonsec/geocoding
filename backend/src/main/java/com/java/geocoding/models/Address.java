@@ -13,13 +13,13 @@ import lombok.ToString;
 @ToString
 public class Address {
 
-	private List<String> addresses;
+	private List<String> address;
 
-	public List<String> getAddresses() {
-		if(this.addresses == null){
-		      this.addresses = new ArrayList<>();
+	public List<String> getAddress() {
+		if(this.address == null){
+		      this.address = new ArrayList<>();
 		    }
-		return addresses;
+		return address;
 	}
 	
 	

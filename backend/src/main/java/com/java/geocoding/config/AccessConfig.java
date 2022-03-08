@@ -13,7 +13,7 @@ public class AccessConfig {
 
 	public AccessConfig() {
 		
-		this.key_code = "AIzaSyC_fpgmaLQZETCePy59I2am58UbFiYay34";
+		this.key_code = "AIzaSyArqqPgpY0i0Y9mcuXZc5z402i0q-AVvKI";
 	}
 
 	
