@@ -16,6 +16,6 @@ import lombok.Setter;
 public class AddressResponse {
 	
    private Address address;
-   private List<LatLng> coordinates;
+   private List<LatLng> coords;
    private String result;
 }
